@@ -11,7 +11,7 @@ const {
     countProducts,
 } = require('../controller/productsController');
 
-router.get('/', test);
+
 router.get('/list', productsList);
 router.get('/count', countProducts);
 router.get('/single/:id', singleProduct);
